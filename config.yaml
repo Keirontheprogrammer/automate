@@ -1,0 +1,14 @@
+apps:
+  distraction:
+    name: vlc.exe
+    limit_minutes: 1
+
+  reward:
+    linux:
+      - code
+      - gnome-terminal
+    windows:
+      - code
+      - wt.exe
+
+check_interval_seconds: 5
